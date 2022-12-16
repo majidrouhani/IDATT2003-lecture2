@@ -6,12 +6,9 @@
 
   <groupId>edu.ntnu.idatt2001.lectures</groupId>
   <artifactId>lecture2</artifactId>
-  <version>1.0-SNAPSHOT</version>
-
+  <version>1.0</version>
   <name>lecture2</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
-
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
