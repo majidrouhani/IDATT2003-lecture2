@@ -10,7 +10,7 @@ import edu.ntnu.idatt2001.lectures.simple.SimpleData;
 
 public class App {
 
-  private static final Logger LOGGER = Logger.getLogger(App.class.getName());
+  private static final Logger logger = Logger.getLogger(App.class.getName());
 
   /**
    * main.
@@ -23,21 +23,21 @@ public class App {
 
     if (persons != null) {
       for (Person person : persons) {
-        LOGGER.log(Level.INFO,"Person {0}", person);
+        logger.log(Level.INFO,"Person {0}", person);
       }
     }
 
     List<Employee> employees = SimpleData.getEmployeeData();
     if (employees != null) {
       for (Employee employee : employees) {
-        LOGGER.log(Level.INFO,"Employee {0}", employee);
+        logger.log(Level.INFO,"Employee {0}", employee);
       }
     }
 
     List<Patient> patients = HierarchyData.getPatientData();
     if (patients != null) {
       for (Patient patient : patients) {
-        LOGGER.log(Level.INFO,"Patient {0}", patient);
+        logger.log(Level.INFO,"Patient {0}", patient);
       }
     }
   }

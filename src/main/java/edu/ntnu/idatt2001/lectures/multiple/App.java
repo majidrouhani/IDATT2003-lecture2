@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class App {
 
-  private static final Logger LOGGER = Logger.getLogger(App.class.getName());
+  private static final Logger logger = Logger.getLogger(App.class.getName());
 
   /**
    * main.
@@ -18,7 +18,7 @@ public class App {
     List<Manager> managers = MultipleData.getPatientData();
     if (managers != null) {
       for (Manager manager : managers) {
-        LOGGER.log(Level.INFO,"Manager {0}", manager);
+        logger.log(Level.INFO,"Manager {0}", manager);
       }
     }
   }
