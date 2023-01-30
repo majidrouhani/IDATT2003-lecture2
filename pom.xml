@@ -9,7 +9,7 @@
   <artifactId>lecture2</artifactId>
   <version>1.0</version>
 
-  <name>lecture1</name>
+  <name>lecture2</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
