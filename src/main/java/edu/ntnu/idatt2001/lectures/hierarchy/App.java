@@ -1,8 +1,6 @@
 package edu.ntnu.idatt2001.lectures.hierarchy;
 
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import edu.ntnu.idatt2001.lectures.simple.Employee;
 import edu.ntnu.idatt2001.lectures.simple.Person;
@@ -15,10 +13,6 @@ import edu.ntnu.idatt2001.lectures.simple.SimpleData;
  */
 public class App {
 
-  // Logger
-  private static final Logger logger = Logger.getLogger(App.class.getName());
-
-
   /**
    * Main-metode som starter applikasjonen.
    *
@@ -30,21 +24,21 @@ public class App {
 
     if (persons != null) {
       for (Person person : persons) {
-        logger.log(Level.INFO,"Person {0}", person);
+        System.out.printf("Person %s", person);
       }
     }
 
     List<Employee> employees = SimpleData.getEmployeeData();
     if (employees != null) {
       for (Employee employee : employees) {
-        logger.log(Level.INFO,"Employee {0}", employee);
+        System.out.printf("Employee %s", employee);
       }
     }
 
     List<Patient> patients = HierarchyData.getPatientData();
     if (patients != null) {
       for (Patient patient : patients) {
-        logger.log(Level.INFO,"Patient {0}", patient);
+        System.out.printf("Patient %s", patient);
       }
     }
   }
