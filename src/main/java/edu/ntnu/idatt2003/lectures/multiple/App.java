@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.multiple;
+package edu.ntnu.idatt2003.lectures.multiple;
 
 import java.util.List;
 

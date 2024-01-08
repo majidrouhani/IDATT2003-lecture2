@@ -1,6 +1,10 @@
-package edu.ntnu.idatt2001.lectures.simple;
+package edu.ntnu.idatt2003.lectures.hierarchy;
 
 import java.util.List;
+
+import edu.ntnu.idatt2003.lectures.simple.Employee;
+import edu.ntnu.idatt2003.lectures.simple.Person;
+import edu.ntnu.idatt2003.lectures.simple.SimpleData;
 
 /**
  * App.java - "Programmering i Java", 4.utgave - 2009-07-01
@@ -8,6 +12,7 @@ import java.util.List;
  * Klasse som inneholder main-metoden for applikasjonen.
  */
 public class App {
+
   /**
    * Main-metode som starter applikasjonen.
    *
@@ -23,7 +28,6 @@ public class App {
       }
     }
 
-
     List<Employee> employees = SimpleData.getEmployeeData();
     if (employees != null) {
       for (Employee employee : employees) {
@@ -31,5 +35,11 @@ public class App {
       }
     }
 
+    List<Patient> patients = HierarchyData.getPatientData();
+    if (patients != null) {
+      for (Patient patient : patients) {
+        System.out.printf("Patient %s", patient);
+      }
+    }
   }
 }

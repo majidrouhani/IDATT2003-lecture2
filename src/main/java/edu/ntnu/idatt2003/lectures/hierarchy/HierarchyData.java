@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.hierarchy;
+package edu.ntnu.idatt2003.lectures.hierarchy;
 
 import java.util.ArrayList;
 import java.util.List;

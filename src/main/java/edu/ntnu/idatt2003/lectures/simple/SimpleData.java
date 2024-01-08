@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.simple;
+package edu.ntnu.idatt2003.lectures.simple;
 
 import java.util.ArrayList;
 import java.util.List;

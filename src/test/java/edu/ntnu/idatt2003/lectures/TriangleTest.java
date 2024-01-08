@@ -1,12 +1,12 @@
-package edu.ntnu.idatt2001.lectures;
+package edu.ntnu.idatt2003.lectures;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import edu.ntnu.idatt2001.lectures.polymorphism.RightTriangle;
-import edu.ntnu.idatt2001.lectures.polymorphism.Triangle;
+import edu.ntnu.idatt2003.lectures.polymorphism.RightTriangle;
+import edu.ntnu.idatt2003.lectures.polymorphism.Triangle;
 
 /**
  * Unit test for simple App.

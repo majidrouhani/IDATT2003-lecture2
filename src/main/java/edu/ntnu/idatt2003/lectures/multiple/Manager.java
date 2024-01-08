@@ -1,6 +1,6 @@
-package edu.ntnu.idatt2001.lectures.multiple;
+package edu.ntnu.idatt2003.lectures.multiple;
 
-import edu.ntnu.idatt2001.lectures.simple.Employee;
+import edu.ntnu.idatt2003.lectures.simple.Employee;
 
 /**
  * Manager.java - "Programmering i Java", 4.utgave - 2009-07-01

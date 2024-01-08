@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.polymorphism;
+package edu.ntnu.idatt2003.lectures.polymorphism;
 
 /**
  * EquilateralTriangle.java - "Programmering i Java", 4.utgave - 2009-07-01

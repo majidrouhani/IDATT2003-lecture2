@@ -1,6 +1,6 @@
-package edu.ntnu.idatt2001.lectures.hierarchy;
+package edu.ntnu.idatt2003.lectures.hierarchy;
 
-import edu.ntnu.idatt2001.lectures.simple.Person;
+import edu.ntnu.idatt2003.lectures.simple.Person;
 
 /**
  * Patient.java - "Programmering i Java", 4.utgave - 2009-07-01
