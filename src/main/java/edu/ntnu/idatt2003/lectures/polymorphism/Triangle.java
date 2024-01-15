@@ -5,7 +5,7 @@ package edu.ntnu.idatt2003.lectures.polymorphism;
  * <p>
  * Klasse som representerer en trekant.
  */
-public class Triangle {
+public class Triangle extends Shape{
   protected final double a;
   protected final double b;
   protected final double c;
@@ -31,6 +31,7 @@ public class Triangle {
    * 
    * @return area of triangle
    */
+  @Override
   public double calcArea() {
     double l1 = 4*Math.pow(a, 2)*Math.pow(b, 2);
     double l2 = Math.pow(Math.pow(a, 2)+Math.pow(b, 2)-Math.pow(c, 2),2);

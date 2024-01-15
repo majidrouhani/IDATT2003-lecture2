@@ -23,7 +23,7 @@ public class SimpleData {
      * @return personer
      */
     public static List<Person> getPersonData() {
-        List<Person> persons = new ArrayList<>();
+        final List<Person> persons = new ArrayList<>();
         persons.add(new Person("Hans Ola"));
         persons.add(new Person("Anne Antonsen"));
         return persons;
@@ -35,7 +35,7 @@ public class SimpleData {
        * @return ansatte
        */
      public static List<Employee> getEmployeeData() {
-        List<Employee> employees = new ArrayList<>();
+        final List<Employee> employees = new ArrayList<>();
         employees.add(new Employee("Ola Ansatt", 550000));
         employees.add(new Employee("Kristin Dahle", 650000));
         return employees;
