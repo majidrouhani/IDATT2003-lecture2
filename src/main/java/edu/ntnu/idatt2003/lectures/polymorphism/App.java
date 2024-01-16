@@ -16,19 +16,19 @@ public class App {
 
     Triangle triangle = new Triangle(9, 6, 5);
     Double calcArea = triangle.calcArea();
-    System.out.printf("All three sides are known: Area = %s", calcArea);
+    System.out.printf("All three sides are known: Area = %.2f", calcArea);
 
     RightTriangle rightTriangle = new RightTriangle(9, 6);
     calcArea = rightTriangle.calcArea();
-    System.out.printf("Right triangle: Area = %n", calcArea);
+    System.out.printf("Right triangle: Area = %.2f", calcArea);
 
     IsoscelesTriangle isoscelesTriangle = new IsoscelesTriangle(9, 6);
     calcArea = isoscelesTriangle.calcArea();
-    System.out.printf("Isosceles triangle: Area = %n", calcArea);
+    System.out.printf("Isosceles triangle: Area = %.2f", calcArea);
 
     EquilateralTriangle equilateralTriangle = new EquilateralTriangle(9);
     calcArea = equilateralTriangle.calcArea();
-    System.out.printf("Equilateral triangle: Area = %n", calcArea);
+    System.out.printf("Equilateral triangle: Area = %.2f", calcArea);
 
   }
 }
