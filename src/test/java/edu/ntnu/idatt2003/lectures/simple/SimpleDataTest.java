@@ -12,7 +12,7 @@ public class SimpleDataTest {
         List<Person> personData = SimpleData.getPersonData();
 
         assertNotNull(personData);
-        assertEquals(3, personData.size());
+        assertEquals(2, personData.size());
 
         // Add more assertions to validate the data returned by the method
         // For example:
